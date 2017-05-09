@@ -1,5 +1,5 @@
 function getPrimes(num){
-  for (var counter = 1; counter <= num; counter++){
+  for (var counter = 2; counter <= num; counter++){
     var not_prime = false;
     for (var div = 2; div <= (counter - 1); div++) 
     {
